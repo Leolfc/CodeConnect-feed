@@ -1,0 +1,16 @@
+
+
+.ordem{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--verde-destaque);
+  
+}
+.recentes__cinza{
+    color: var(--cinza-medio);
+}
+.recentes__verde{
+    text-decoration: underline;
+}
