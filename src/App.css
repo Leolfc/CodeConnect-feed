@@ -2,14 +2,28 @@
   width: 62vw;
   margin: 3.5em auto;
   display: flex;
+  flex-flow: row nowrap;
   gap: 16px;
+  justify-content: center;
 }
 .container div {
-  flex-grow: 2;
+  flex: 1 1 auto;
+ 
 }
 .lista-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
   gap: 24px;
+}@media (min-width:450px) and (max-width:900px) {
+  .container,.lista-cards{
+flex-flow: column wrap;
+width: 100vw;
+display: block;
+
+
+  }
+ 
+  
+  
 }

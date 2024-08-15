@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css'//!SEMPRE IMPORTAR CSS NO INDES.JSX
 export default function Filtro(){
     return(
        <section className="container-filtro">

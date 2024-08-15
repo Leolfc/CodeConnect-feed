@@ -1,7 +1,7 @@
 import Code from "./assets/code.svg";
 import Chat from "./assets/chat.svg";
 import Share from "./assets/share.svg";
-import "./style.css";
+import "./style.css"; //!SEMPRE IMPORTAR CSS NO INDES.JSX
 export default function Card({
   id,
   imagemUrl,
